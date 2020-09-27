@@ -30,13 +30,16 @@
   <!--/Third slide-->
   <div class="carousel-caption">
     <p class="lead">Come on in to view cars... All you need to do is sign up!</p>
-          <div class="text-center">
-            <button class="btn btn-primary btn-lg mr-2" (click)="registerToggle()">Register</button>
-            <button class="btn btn-info btn-lg">Learn more</button>
-          </div>
 </div>
 </mdb-carousel>
 <!--/.Carousel Wrapper-->
+
+
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mt-2 mr-2" (click)="registerToggle()">Register</button>
+      <button class="btn btn-info btn-lg mt-2">Learn more</button>
+    </div>
+  </div>
 </div>
 
   <div *ngIf="registerMode" class="container">
@@ -46,4 +49,4 @@
       </div>
     </div>
   </div>
-</div>
+
